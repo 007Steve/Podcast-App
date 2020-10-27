@@ -1,0 +1,49 @@
+.header{
+    display: flex;
+    background-color: tomato;
+ align-items: center;
+}
+
+.header-row {
+    height: 200px;
+    border-radius: 1.0em;
+    margin-top: 1.0em;
+    margin:1.1em ;
+}
+
+.row-one {
+    flex: 1;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    
+}
+
+.row-two{
+    display: flex;
+    background-color: turquoise;
+    max-width: 35%;
+    align-items:flex-start;
+    height: 200px;
+}
+
+.header-profile-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#photo{
+ margin-left: 1.0em;
+}
+h5{
+    margin: 0px;
+    padding: 0px;
+}
+.header-profile-text{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header-follower-text{
+display: flex;
+justify-content: space-between;
+}
