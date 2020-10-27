@@ -1,0 +1,45 @@
+.sidebar {
+    max-width: 25%;
+    background-color: blueviolet;
+    height: 100vh;
+    text-align: left;
+}
+
+.sidebar-input-container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1.0em;
+    margin-right: 1.00em;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: .24em;
+    background-color: white;
+}
+
+input{
+    flex: 1;
+    border: none;
+    outline: none;
+}
+
+.sidebar-music-container {
+    margin: 0 1.0em;
+}
+
+.sidebar-icons-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-icons {
+    display: flex;
+    align-items: center;
+   
+}
+.sidebar-icons-text {
+    padding-left: .50em;
+}
+
+.sidebar-playlist-container{
+    margin: 0 1.0em;
+}
