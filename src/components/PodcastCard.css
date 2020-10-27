@@ -1,0 +1,40 @@
+.podcastcard{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   margin: 1.0em;
+   border-bottom: 1px solid black;
+}
+
+.podcastcard-content-container{
+    display: flex;
+    align-items: center;
+}
+
+#podcast-image{
+    max-width: 80px;
+    max-height: 80px;
+    border-radius: .50em;
+    margin-bottom: .10em;
+}
+.podcastcard-info{
+    margin: 0;
+    padding: 0;
+    margin-left: 1.0em;
+}
+
+.podcastcard-info-title{
+    margin: 0;
+    padding: 0;
+  
+}
+
+.podcastcard-info-artist{
+
+    margin: 0;
+    padding: 0;
+}
+
+.podcastcard-info-time{
+    flex:1;
+}

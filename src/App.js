@@ -1,13 +1,32 @@
-
+import React,{useEffect, useState} from 'react'
 import './App.css';
-import SideBar from './components/SideBar';
+
+import Login from './components/Login';
+import { getTokenFromResponse } from './components/spotify';
+import HomePage from './components/HomePage';
 
 function App() {
+
+  const [token,setToken] = useState(null)
+  useEffect(() => {
+    const hash = getTokenFromResponse()
+    window.location.hash = ""
+
+    const _token = hash.access_token
+    if(_token) {
+      setToken(_token)
+    }
+    console.log ("i am a token", token)
+   
+  }, [token])
   return (
+    <>
     <div className="App">
-      
-     <SideBar/>
+      {!token &&  <Login/>}
+       { token  && <HomePage/>}
+  
     </div>
+    </>
   );
 }
 

@@ -1,0 +1,40 @@
+.maincontainer{
+    flex:75;
+    width: 95%;
+    background-color: rgb(241, 237, 237);
+}
+
+.maincontainer-two-column{
+    display: flex;
+    flex: 1;
+    height: 560px;
+    border-radius: 1.0em;
+  
+}
+
+.column{
+    background-color: rgb(255, 255, 255);
+    height: 99%;
+    margin-left: 1.0em;
+    margin-right: 1.0em;
+    border-radius: 1.0em;
+    text-align: center;
+}
+
+.column-one{
+    overflow-x: scroll;
+    flex: 1;
+}
+
+.column-two{
+    flex:1;
+}
+.column-one::-webkit-scrollbar{
+    display: none;
+}
+
+.maincontainer-recommended{
+    display: grid;
+    grid-template-columns: 200px 200px 200px  ;
+    justify-content: center;
+}

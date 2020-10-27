@@ -1,0 +1,17 @@
+.musiccard {
+  text-align: left;
+  margin: 1em;
+  cursor: pointer;
+}
+#musiccard-image {
+  border-radius: 1.2em;
+  height: 10em;
+}
+.musiccard-title {
+  padding: 0;
+  margin: 0;
+}
+.musiccard-name {
+  padding: 0;
+  margin: 0;
+}

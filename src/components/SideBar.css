@@ -1,8 +1,10 @@
 .sidebar {
+   
     max-width: 25%;
-    background-color: blueviolet;
+    background-color: rgb(255, 255, 255);
     height: 100vh;
     text-align: left;
+    color: rgb(0, 0, 0);
 }
 
 .sidebar-input-container {
@@ -10,10 +12,13 @@
     justify-content: space-between;
     margin-left: 1.0em;
     margin-right: 1.00em;
+    margin-top: 1.0em;
+    margin-bottom: 1.0em;
     border: 1px solid black;
     border-radius: 10px;
     padding: .24em;
     background-color: white;
+
 }
 
 input{

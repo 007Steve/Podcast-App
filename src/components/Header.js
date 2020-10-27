@@ -1,7 +1,7 @@
 import React from 'react'
 import './Header.css'
 import { Avatar } from '@material-ui/core'
-import MoreVertIcon from '@material-ui/icons/MoreVert';
+
 function Header() {
     return (
         <div className="header">
